@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*Roboto: CSS classes*/
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/*Merriweather: CSS classes*/
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/*Playfair Display: CSS class for a variable style*/
+/*font-family: "Playfair Display", serif;*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.active{
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    background: #FBEECA;
+    position: relative;
+}
+
+.footer img {
+    width: 100%;
+}
+
+.footer_top {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 45%;
+}
+
+.footer_top a {
+    margin: 0 20px;
+}
+
+.footer_icon1 {
+    width: 100px !important;
+}
+
+.footer_icon2 {
+    width: 60px !important;
+}
+
+.footer_icon3 {
+    width: 40px !important;
+}
+
+.footer_bottom {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60%;
+}
+
+.footer_title {
+    color: #4D4745;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.footer_form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.footer_form input {
+    width: 300px;
+    height: 70px;
+    border: 1px solid #4D4745;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background: #A67C55;
+    border-radius: 10px;
+}
+
+.footer_form input::placeholder {
+    color: #FBEECA;
+}
+
+.footer_form button {
+    color: #4D4745;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #4D4745;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s;
+}
+
+.footer_form button:hover {
+    background: rgba(77, 71, 69, 0.2);
+}
+.footer_bottom .text{
+    color: #A67C55;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+header {
+    padding: 0 100px;
+    background: #F2D7A7;
+    color: #4D4745;
+}
+
+header a {
+    font-size: 20px;
+    font-family: Arial;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0;
+    }
+    .footer_top {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 25%;
+    }
+
+    .footer_top a {
+        margin: 0 10px;
+    }
+    .footer_icon1 {
+        width: 50px !important;
+    }
+
+    .footer_icon2 {
+        width: 40px !important;
+    }
+
+    .footer_icon3 {
+        width: 20px !important;
+    }
+    .footer_bottom {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 48%;
+        width: 100%;
+        text-align: center;
+    }
+    .footer_title{
+        color: #4D4745;
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .footer_form {
+        display: flex;
+        justify-content: center;
+        margin: 5px 0;
+        align-items: center;
+    }
+    .footer_form input {
+        width: 150px;
+        height: 30px;
+        border: 1px solid #4D4745;
+        padding: 5px 10px;
+        margin-right: 10px;
+        background: #A67C55;
+        border-radius: 5px;
+    }
+    .footer_form button {
+        color: #4D4745;
+        background: rgba(0, 0, 0, 0);
+        border: 2px solid #4D4745;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        padding: 5px 10px;
+        transition: all 0.3s;
+    }
+    .footer_bottom .text{
+        font-size: 12px;
+    }
+}

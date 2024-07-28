@@ -1,0 +1,117 @@
+.contact_con{
+    padding: 3vw 0;
+    background: #FBEECA;
+}
+.con_form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.form_title{
+    font-size: 40px;
+}
+.contact_con_left{
+    width: 40%;
+}
+.form1 input{
+    width: 48%;
+    background: #D2BBA0;
+    border: 1px solid #4D4745;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+label{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4D4745;
+}
+.form1 >div{
+    display: flex;
+    justify-content: space-between;
+}
+.form2 input{
+    width: 100%;
+    background: #D2BBA0;
+    border: 1px solid #4D4745;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.contact_con_left>div{
+    margin-bottom: 20px;
+}
+.form2 textarea{
+    width: 100%;
+    height: 200px;
+    background: #D2BBA0;
+    border: 1px solid #4D4745;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.submit{
+    width: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 15px 0;
+    background: #FBEECA;
+    color: #4D4745;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.submit:hover{
+    background: #4D4745;
+    color: #FBEECA;
+}
+.contact_con_right{
+    width: 50%;
+}
+.form_list{
+    padding: 15px 0;
+    border-bottom: 2px solid #A67C55;
+    border-top: 2px solid #A67C55;
+    transition: all 0.3s;
+    margin: 15px 0;
+}
+.form_text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: #4D4745;
+}
+.add{
+    font-size: 26px;
+    cursor: pointer;
+}
+.form_list p{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+@media screen and (max-width: 768px){
+    .con_form{
+        display: block;
+    }
+    .con_form>div{
+        width: 100%;
+    }
+    .submit{
+        padding: 10px 0;
+    }
+    .form_title{
+        font-size: 30px;
+    }
+    .add{
+        font-size: 20px;
+    }
+    label{
+        font-size: 18px;
+    }
+}

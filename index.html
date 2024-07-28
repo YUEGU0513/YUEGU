@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <style>
+        .swiper {
+            width: 100%;
+            height: 80vh;
+        }
+
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 18px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .swiper-slide:nth-child(1n) {
+            background-image: url('./images/img3.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .swiper-slide:nth-child(2n) {
+            background-image: url('./images/img4.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .swiper-slide:nth-child(3n) {
+            background-image: url('./images/img5.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .btn {
+            background: #CDD19F;
+            font-family: "Merriweather", serif;
+            font-weight: 400;
+        }
+        @media screen and (max-width: 768px) {
+            .swiper {
+                width: 70%;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" height="50" width="100"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="film1.html" role="button" data-toggle="dropdown"
+                       aria-expanded="false">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="film1.html">Double Exposure</a>
+                        <a class="dropdown-item" href="film2.html">Ordinary</a>
+                        <a class="dropdown-item" href="film3.html">Documentary</a>
+
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</header>
+<div class="banner">
+    <div class="banner_title">
+        Welcome To
+        <br>
+        My Portfolio
+    </div>
+    <div class="banner_bottom_img"><img src="images/Mask group.png"/></div>
+</div>
+<div class="home_con">
+    <div class="container">
+        <div class="home_con1">
+            <div class="home_con1_left"><img src="images/img2.png"/></div>
+            <div class="home_con1_title">Welcome To My Portfolio</div>
+            <div class="home_con1_right">
+                <h2 class="merriweather-black">Hello!</h2>
+                <p class="merriweather-regular">
+                    I’m Yue, a student of Media and Communications with a minor in Sociology, based between Melbourne
+                    and Hangzhou. Photography is my passion--I love to capture fleeting moments and immortalise them
+                    through my lens.
+                </p>
+                <a href="" class="merriweather-bold">Learn more about me</a>
+            </div>
+        </div>
+        <div class="home_con2">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                </div>
+            </div>
+        </div>
+        <div class="home_con3">
+            <div class="home_con3_title">
+                <div class="home_con3_title_icon"><img src="images/img6.png"/></div>
+                <div class="merriweather-regular home_con3_title_text">Projects</div>
+                <div class="home_con3_title_icon"><img src="images/img6.png"/></div>
+            </div>
+            <div class="home_con3_con">
+                <div>
+                    <img src="images/img7.png"/>
+                    <div class="dropdown" style="display: flex;justify-content: center;margin-top: 20px;">
+                        <div class="btn btn-secondary dropdown-toggle" role="button" data-toggle="dropdown"
+                             aria-expanded="false">
+                            Digital
+                        </div>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="film3.html">Documentary</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/img8.png"/>
+                    <div class="dropdown" style="display: flex;justify-content: center;margin-top: 20px;">
+                        <div class="btn btn-secondary dropdown-toggle" role="button" data-toggle="dropdown"
+                             aria-expanded="false">
+                            Film
+                        </div>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="film2.html">Ordinary</a>
+                            <a class="dropdown-item" href="film1.html">Double Exposure</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <img src="images/img9.png"/>
+    <div class="footer_top">
+        <a href="index.html"><img src="images/img10.png" class="footer_icon1"/></a>
+        <a href="contact.html"><img src="images/img11.png" class="footer_icon2"/></a>
+        <a href="contact.html"><img src="images/img12.png" class="footer_icon3"/></a>
+    </div>
+    <div class="footer_bottom">
+        <div class="footer_title">Join Our Newsletter  :)</div>
+        <div class="footer_form">
+            <input type="text" placeholder="Enter your email address"> <button>Sign up</button>
+        </div>
+        <div class="text">We respect your privacy. Your email address will never be shared or sold</div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+    });
+</script>
+</body>
+</html>

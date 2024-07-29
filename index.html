@@ -54,6 +54,9 @@
             font-family: "Merriweather", serif;
             font-weight: 400;
         }
+        .Hello{
+            transition: all 0.3s;
+        }
         @media screen and (max-width: 768px) {
             .swiper {
                 width: 70%;
@@ -112,7 +115,7 @@
             <div class="home_con1_left"><img src="images/img2.png"/></div>
             <div class="home_con1_title">Welcome To My Portfolio</div>
             <div class="home_con1_right">
-                <h2 class="merriweather-black">Hello!</h2>
+                <h2 class="merriweather-black Hello">Hello!</h2>
                 <p class="merriweather-regular">
                     I’m Yue, a student of Media and Communications with a minor in Sociology, based between Melbourne
                     and Hangzhou. Photography is my passion--I love to capture fleeting moments and immortalise them
@@ -191,6 +194,16 @@
         effect: "cards",
         grabCursor: true,
     });
+    let Hello = document.querySelector('.Hello')
+    let Learn = document.querySelector('.Learn')
+    
+
+    Learn.onmouseenter = function () {
+        Hello.style.transform = 'scale(1.1)'
+    }
+    Learn.mouseleave = function () {
+        Hello.style.transform = 'scale(1)'
+    }
 </script>
 </body>
 </html>
